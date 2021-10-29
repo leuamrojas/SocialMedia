@@ -1,0 +1,13 @@
+C:\Repos\Demos\SocialMedia\SocialMedia.Infrastructure\bin\Release\netstandard2.0\SocialMedia.Infrastructure.deps.json
+C:\Repos\Demos\SocialMedia\SocialMedia.Infrastructure\bin\Release\netstandard2.0\SocialMedia.Infrastructure.dll
+C:\Repos\Demos\SocialMedia\SocialMedia.Infrastructure\bin\Release\netstandard2.0\SocialMedia.Infrastructure.pdb
+C:\Repos\Demos\SocialMedia\SocialMedia.Infrastructure\bin\Release\netstandard2.0\SocialMedia.Core.dll
+C:\Repos\Demos\SocialMedia\SocialMedia.Infrastructure\bin\Release\netstandard2.0\SocialMedia.Core.pdb
+C:\Repos\Demos\SocialMedia\SocialMedia.Infrastructure\obj\Release\netstandard2.0\SocialMedia.Infrastructure.csproj.AssemblyReference.cache
+C:\Repos\Demos\SocialMedia\SocialMedia.Infrastructure\obj\Release\netstandard2.0\SocialMedia.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repos\Demos\SocialMedia\SocialMedia.Infrastructure\obj\Release\netstandard2.0\SocialMedia.Infrastructure.AssemblyInfoInputs.cache
+C:\Repos\Demos\SocialMedia\SocialMedia.Infrastructure\obj\Release\netstandard2.0\SocialMedia.Infrastructure.AssemblyInfo.cs
+C:\Repos\Demos\SocialMedia\SocialMedia.Infrastructure\obj\Release\netstandard2.0\SocialMedia.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Repos\Demos\SocialMedia\SocialMedia.Infrastructure\obj\Release\netstandard2.0\SocialMedia.Infrastructure.csproj.CopyComplete
+C:\Repos\Demos\SocialMedia\SocialMedia.Infrastructure\obj\Release\netstandard2.0\SocialMedia.Infrastructure.dll
+C:\Repos\Demos\SocialMedia\SocialMedia.Infrastructure\obj\Release\netstandard2.0\SocialMedia.Infrastructure.pdb
