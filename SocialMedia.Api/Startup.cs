@@ -48,33 +48,8 @@ namespace SocialMedia.Api
             //services.Configure<PasswordOptions>(Configuration.GetSection("PasswordOptions"));
 
             services.AddDbContexts(Configuration);
-            //services.AddDbContext<SocialMediaContext>(options =>
-            //    options.UseSqlServer(Configuration.GetConnectionString("SocialMedia"))
-            //);            
-
             services.AddServices();
-            //services.AddTransient<IPostService, PostService>();
-            //services.AddTransient<ISecurityService, SecurityService>();
-            //services.AddScoped(typeof(IRepository<>), typeof(BaseRepository<>));
-            //services.AddScoped<IUnitOfWork, UnitOfWork>();
-            //services.AddSingleton<IPasswordService, PasswordService>();
-            //services.AddSingleton<IUriService>(provider =>
-            //{
-            //    var accesor = provider.GetRequiredService<IHttpContextAccessor>();
-            //    var request = accesor.HttpContext.Request;
-            //    var absoluteUri = string.Concat(request.Scheme, "://", request.Host.ToUriComponent());
-            //    return new UriService(absoluteUri);
-            //});
-
             services.AddSwagger($"{ Assembly.GetExecutingAssembly().GetName().Name }.xml");
-            //services.AddSwaggerGen(doc =>
-            //{
-            //    doc.SwaggerDoc("v1", new OpenApiInfo { Title = "Social Media API", Version = "v1" });
-                
-            //    var xmlFile = $"{ Assembly.GetExecutingAssembly().GetName().Name }.xml";
-            //    var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);                
-            //    doc.IncludeXmlComments(xmlPath);
-            //});
 
             services.AddAuthentication(options =>
             {

@@ -30,6 +30,25 @@ namespace SocialMedia.Infrastructure.Filters
                 context.Result = new BadRequestObjectResult(json);
                 context.HttpContext.Response.StatusCode = (int)HttpStatusCode.BadRequest;
                 context.ExceptionHandled = true;
+            } 
+            else if (context.Exception.GetType() == typeof(NotFoundException))
+            {
+                var exception = (NotFoundException)context.Exception;
+                var validation = new
+                {
+                    Status = 404,
+                    Title = "NotFound",
+                    Detail = exception.Message
+                };
+
+                var json = new
+                {
+                    errors = new[] { validation }
+                };
+
+                context.Result = new NotFoundObjectResult(json);
+                context.HttpContext.Response.StatusCode = (int)HttpStatusCode.NotFound;
+                context.ExceptionHandled = true;
             }
         }
     }

@@ -96,3 +96,10 @@ C:\Repos\Demos\SocialMedia\SocialMedia.UnitTests\obj\Debug\netcoreapp3.1\SocialM
 C:\Repos\Demos\SocialMedia\SocialMedia.UnitTests\obj\Debug\netcoreapp3.1\SocialMedia.UnitTests.genruntimeconfig.cache
 C:\Repos\Demos\SocialMedia\SocialMedia.UnitTests\obj\Debug\netcoreapp3.1\SocialMedia.UnitTests.csproj.AssemblyReference.cache
 C:\Repos\Demos\SocialMedia\SocialMedia.UnitTests\obj\Debug\netcoreapp3.1\SocialMedia.UnitTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repos\Demos\SocialMedia\SocialMedia.UnitTests\bin\Debug\netcoreapp3.1\Castle.Core.dll
+C:\Repos\Demos\SocialMedia\SocialMedia.UnitTests\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Repos\Demos\SocialMedia\SocialMedia.UnitTests\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Repos\Demos\SocialMedia\SocialMedia.UnitTests\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Repos\Demos\SocialMedia\SocialMedia.UnitTests\bin\Debug\netcoreapp3.1\Moq.dll
+C:\Repos\Demos\SocialMedia\SocialMedia.UnitTests\bin\Debug\netcoreapp3.1\SocialMedia.Core.dll
+C:\Repos\Demos\SocialMedia\SocialMedia.UnitTests\bin\Debug\netcoreapp3.1\SocialMedia.Core.pdb

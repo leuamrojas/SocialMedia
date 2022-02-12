@@ -23,7 +23,12 @@ namespace SocialMedia.Core.Services
 
         public async Task<Post> GetPost(int id)
         {
-            return await _unitOfWork.PostRepository.GetById(id);
+            var post = await _unitOfWork.PostRepository.GetById(id);
+            if (post is null)
+            {
+                throw new PostNotFoundException(id);
+            }
+            return post;
         }
 
         public PagedList<Post> GetPosts(PostQueryFilter filter)
